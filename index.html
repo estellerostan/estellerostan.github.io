@@ -18,10 +18,11 @@
   <div class="wrapper">
     <header>
       <h1>Estelle Rostan</h1>
-      <a href="mailto:rostanestelle@gmail.com">rostanestelle@gmail.com</a><br/>
-      <a href="https://www.linkedin.com/in/estellerostan/">linkedin.com/in/estellerostan</a><br/><br/>
-      <a href="https://github.com/estellerostan">github.com/estellerostan</a><br/>
-      <a href="https://shafoo.itch.io/">shafoo.itch.io</a><br/><br/>
+      <img src="images/profile-picture.png" alt="stuff" width="180">
+      <a href="mailto:rostanestelle@gmail.com">rostanestelle@gmail.com</a><br />
+      <a href="https://www.linkedin.com/in/estellerostan/">linkedin.com/in/estellerostan</a><br /><br />
+      <a href="https://github.com/estellerostan">github.com/estellerostan</a><br />
+      <a href="https://shafoo.itch.io/">shafoo.itch.io</a><br /><br />
       <p><a href="./downloads/ROSTAN-CV.pdf">CV</a></p>
 
     </header>
@@ -31,20 +32,83 @@
             class="octicon octicon-link"></span></a>À propos
       </h3>
 
-      <p>Je suis étudiante en <strong>deuxième année</strong> de Master jeux et médias interactifs numériques parcours <strong>programmation</strong> </a>
-        à l'<a href="https://enjmin.cnam.fr/">ENJMIN</a>.</p>
+      <p>Je suis étudiante en <strong>deuxième année</strong> de Master jeux et médias interactifs numériques parcours
+        <strong>programmation</strong> </a>
+        à l'<a href="https://enjmin.cnam.fr/">ENJMIN</a>.
+      </p>
 
       <h3>
         <a id="projets" class="anchor" href="#projets" aria-hidden="true"><span
             class="octicon octicon-link"></span></a>Projets
       </h3>
 
-      <p>Bientôt. En attendant, mes <strong>jeux</strong> sont disponibles sur <a href="https://shafoo.itch.io/">itch.io</a> !</p>
+      <p>Voici trois de mes mes <strong>jeux</strong> les plus récents : </p>
 
+      <div class="slider">
+        <input type="radio" name="toggle" id="btn-1" checked>
+        <input type="radio" name="toggle" id="btn-2">
+        <input type="radio" name="toggle" id="btn-3">
 
+        <div class="slider-controls">
+          <label for="btn-1"></label>
+          <label for="btn-2"></label>
+          <label for="btn-3"></label>
+        </div>
+
+        <ul class="slides">
+          <li class="slide">
+            <div class="slide-content">
+              <h2 class="slide-title">Dee | S</h2>
+              <p class="slide-text">Explorer, en duo, une relation consensuelle de domination et de soumission.</br>
+                Ce jeu est le projet de fin d'année du Master 1 au Cnam ENJMIN et a été réalisé en 3,5 mois.</p>
+              <p class="slide-text">Jeu en <strong>multijoueurs</strong> avec une tablette ou un téléphone et un
+                PC.</br>Technologies : <strong>Unity</strong> avec <strong>Mirror</strong> pour le online</p>
+              <a href="https://shanori.itch.io/dee-s" target="_blank" class="slide-link">Voir sur itch.io</a>
+            </div>
+            <a class="slide-image" href="https://shanori.itch.io/dee-s" target="_blank"><img src="images/dees.png"
+                alt="Dee | S itch.io link" width="320" height="240"></a>
+          </li>
+          <li class="slide">
+            <div class="slide-content">
+              <h2 class="slide-title">Google Ants AI Challenge</h2>
+              <p class="slide-text">Le défi IA consistait à créer une intelligence artificielle qui contrôle une colonie
+                de fourmis et qui lutte contre d'autres colonies pour la domination.
+              </p>
+              <p class="slide-text">J'ai déterminé la meilleure startégie et je l'ai développée en utilisant
+                <strong>A*</strong>, <strong>BFS</strong> et <strong>MiniMax</strong>, assurant de faire classer l'IA 1/
+                5 au tournoi interne du Master 1 au Cnam
+                ENJMIN.</br>Technologies : <strong>C++</strong> sans moteur et sans débogueur
+              </p>
+              <a href="https://github.com/estellerostan/ants-aichallenge/" target="_blank" class="slide-link">Voir sur
+                github.com</a>
+            </div>
+            <a class="slide-image" href="https://github.com/estellerostan/ants-aichallenge/" target="_blank"><img
+                src="images/ants.png" alt="Ants AI Challenge itch.io link" width="320" height="240"></a>
+          </li>
+          <li class="slide">
+            <div class="slide-content">
+              <h2 class="slide-title">Pumpkin Guard</h2>
+              <p class="slide-text">Planter des citrouilles et les vendre ou récupérer leurs graines... mais attention à les
+                protéger des rats qui veulent les manger.</p>
+              <p class="slide-text">Ce jeu a été créé pour une game jam réalisée en 72h à l'ENJMIN avec pour thème
+                "Trick or Treat".</br>Technologies : <strong>Unity</strong> avec <strong>Shader Graph</strong> et le
+                <strong>Particle System</strong> pour les VFX
+              </p>
+              <a href="https://louis-vogel.itch.io/pumpkin-guard" target="_blank" class="slide-link">Voir sur
+                itch.io</a>
+            </div>
+            <a class="slide-image" href="https://louis-vogel.itch.io/pumpkin-guard" target="_blank"><img
+                src="images/enjam.png" alt="stuff" width="320" height="240"></a>
+          </li>
+        </ul>
+      </div>
+
+      Découvrez tous mes autres jeux sur <a href="https://shafoo.itch.io/">itch.io</a> !
     </section>
+
     <footer>
-      <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small>
+      <p><small>Hosted on GitHub Pages &mdash; </br>Theme adapted from <a
+            href="https://github.com/orderedlist">orderedlist</a></small>
       </p>
     </footer>
   </div>
