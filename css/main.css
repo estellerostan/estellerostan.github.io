@@ -1009,7 +1009,7 @@ strong {
   CONTACT               
 -----------------------------------------*/
 .contact-section {
-  background-image: linear-gradient(180deg, #da8f7e, rgba(188, 108, 37, 0.599112887342437) 45%, rgba(0, 212, 255, 0) 100%), url('../images/moon.svg'), url('../images/moon.svg');
+  background-image: linear-gradient(180deg, #da8f7e, rgba(188, 108, 37, 0.599112887342437) 45%, rgba(0, 212, 255, 0) 100%), url('../images/Moon.svg'), url('../images/Moon.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

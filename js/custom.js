@@ -11,7 +11,7 @@
     $(function() {
       $('.hero-slides').vegas({
           slides: [
-              { src: 'images/moon.svg' },
+              { src: 'images/Moon.svg' },
               // { src: 'images/test.png' },
               // { src: 'images/test.png' }
           ],
