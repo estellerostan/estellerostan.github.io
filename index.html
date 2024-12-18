@@ -1,118 +1,548 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="chrome=1">
-  <title>Portfolio | Estelle Rostan</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="stylesheets/styles.css">
-  <link rel="stylesheet" href="stylesheets/github-light.css">
-  <meta name="viewport" content="width=device-width">
-  <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Estelle Rostan | Portfolio</title>
+
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,400;0,600;0,700;1,200;1,700&display=swap"
+        rel="stylesheet">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="css/vegas.min.css" rel="stylesheet">
+
+    <link href="css/main.css" rel="stylesheet">
+
+    <!--
+
+    Adapted from Tooplate 2137 Barista Cafe
+
+    https://www.tooplate.com/view/2137-barista-cafe
+
+    Bootstrap 5 HTML CSS Template
+
+    -->
 </head>
 
 <body>
-  <div class="wrapper">
-    <header>
-      <h1>Estelle Rostan</h1>
-      <img src="images/profile-picture.png" alt="stuff" width="180">
-      <a href="mailto:rostanestelle@gmail.com">rostanestelle@gmail.com</a><br />
-      <a href="https://www.linkedin.com/in/estellerostan/">linkedin.com/in/estellerostan</a><br /><br />
-      <a href="https://github.com/estellerostan">github.com/estellerostan</a><br />
-      <a href="https://shafoo.itch.io/">shafoo.itch.io</a><br /><br />
-      <p><a href="./downloads/ROSTAN-CV.pdf">CV</a></p>
 
-    </header>
-    <section>
-      <h3>
-        <a id="a-propos" class="anchor" href="#a-propos" aria-hidden="true"><span
-            class="octicon octicon-link"></span></a>À propos
-      </h3>
+    <main>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    Estelle Rostan
+                </a>
 
-      <p>Je suis étudiante en <strong>deuxième année</strong> de Master jeux et médias interactifs numériques parcours
-        <strong>programmation</strong> </a>
-        à l'<a href="https://enjmin.cnam.fr/">ENJMIN</a>.
-      </p>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-      <h3>
-        <a id="projets" class="anchor" href="#projets" aria-hidden="true"><span
-            class="octicon octicon-link"></span></a>Projets
-      </h3>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_1">
+                                <span data-hover="Home">Home</span>
+                            </a>
+                        </li>
 
-      <p>Voici trois de mes mes <strong>jeux</strong> les plus récents : </p>
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_2">
+                                <span data-hover="Projects">Projects</span>
+                            </a>
+                        </li>
 
-      <div class="slider">
-        <input type="radio" name="toggle" id="btn-1" checked>
-        <input type="radio" name="toggle" id="btn-2">
-        <input type="radio" name="toggle" id="btn-3">
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_3">
+                                <span data-hover="Resume">Resume</span>
+                            </a>
+                        </li>
 
-        <div class="slider-controls">
-          <label for="btn-1"></label>
-          <label for="btn-2"></label>
-          <label for="btn-3"></label>
-        </div>
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_5">
+                                <span data-hover="About">About</span>
+                            </a>
+                        </li>
 
-        <ul class="slides">
-          <li class="slide">
-            <div class="slide-content">
-              <h2 class="slide-title">Dee | S</h2>
-              <p class="slide-text">Explorer, en duo, une relation consensuelle de domination et de soumission.</br>
-                Ce jeu est le projet de fin d'année du Master 1 au Cnam ENJMIN et a été réalisé en 3,5 mois.</p>
-              <p class="slide-text">Jeu en <strong>multijoueurs</strong> avec une tablette ou un téléphone et un
-                PC.</br>Technologies : <strong>Unity</strong> avec <strong>Mirror</strong> pour le online</p>
-              <a href="https://shanori.itch.io/dee-s" target="_blank" class="slide-link">Voir sur itch.io</a>
+                    </ul>
+                </div>
             </div>
-            <a class="slide-image" href="https://shanori.itch.io/dee-s" target="_blank"><img src="images/dees.png"
-                alt="Dee | S itch.io link" width="320" height="240"></a>
-          </li>
-          <li class="slide">
-            <div class="slide-content">
-              <h2 class="slide-title">Google Ants AI Challenge</h2>
-              <p class="slide-text">Le défi IA consistait à créer une intelligence artificielle qui contrôle une colonie
-                de fourmis et qui lutte contre d'autres colonies pour la domination.
-              </p>
-              <p class="slide-text">J'ai déterminé la meilleure startégie et je l'ai développée en utilisant
-                <strong>A*</strong>, <strong>BFS</strong> et <strong>MiniMax</strong>, assurant de faire classer l'IA 1/
-                5 au tournoi interne du Master 1 au Cnam
-                ENJMIN.</br>Technologies : <strong>C++</strong> sans moteur et sans débogueur
-              </p>
-              <a href="https://github.com/estellerostan/ants-aichallenge/" target="_blank" class="slide-link">Voir sur
-                github.com</a>
-            </div>
-            <a class="slide-image" href="https://github.com/estellerostan/ants-aichallenge/" target="_blank"><img
-                src="images/ants.png" alt="Ants AI Challenge itch.io link" width="320" height="240"></a>
-          </li>
-          <li class="slide">
-            <div class="slide-content">
-              <h2 class="slide-title">Pumpkin Guard</h2>
-              <p class="slide-text">Planter des citrouilles et les vendre ou récupérer leurs graines... mais attention à les
-                protéger des rats qui veulent les manger.</p>
-              <p class="slide-text">Ce jeu a été créé pour une game jam réalisée en 72h à l'ENJMIN avec pour thème
-                "Trick or Treat".</br>Technologies : <strong>Unity</strong> avec <strong>Shader Graph</strong> et le
-                <strong>Particle System</strong> pour les VFX
-              </p>
-              <a href="https://louis-vogel.itch.io/pumpkin-guard" target="_blank" class="slide-link">Voir sur
-                itch.io</a>
-            </div>
-            <a class="slide-image" href="https://louis-vogel.itch.io/pumpkin-guard" target="_blank"><img
-                src="images/enjam.png" alt="stuff" width="320" height="240"></a>
-          </li>
-        </ul>
-      </div>
+        </nav>
 
-      Découvrez tous mes autres jeux sur <a href="https://shafoo.itch.io/">itch.io</a> !
-    </section>
 
-    <footer>
-      <p><small>Hosted on GitHub Pages &mdash; </br>Theme adapted from <a
-            href="https://github.com/orderedlist">orderedlist</a></small>
-      </p>
-    </footer>
-  </div>
-  <script src="javascripts/scale.fix.js"></script>
+        <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <!--
+
+                    Adapted from Tooplate 2115 Marvel
+
+                    https://www.tooplate.com/view/2115-marvel
+
+                    -->
+                    <div class="col-lg-6 col-12 mx-auto">
+                        <h2 class="animated animated-text">
+                            <span class="mr-2" style="color: white;">Hello, I am</span>
+                            <div class="animated-info">
+                                <span class="animated-item">a programmer</span>
+                                <span class="animated-item">a tech artist</span>
+                                <span class="animated-item">a student</span>
+                            </div>
+                        </h2>
+
+                        <h2 class="intro">I am<br>passionate<br>about video games</h2>
+
+                        <a class="btn custom-btn smoothscroll me-2 mb-2" href="./downloads/ROSTAN-CV.pdf"
+                            target="_blank">
+                            <strong style="color: black;">Download my resume</strong></a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="hero-slides">
+                <!-- <div class="col-lg-5 col-12 h-100">
+                    <img src="images/undraw/undraw_software_engineer_re_tnjc.svg"
+                        class="img-fluid position-absolute bottom-0 end-0 h-50" alt="svg image">
+                </div> -->
+                <a href="#section_2">
+                    <i class="bi bi-arrow-down position-absolute"
+                        style="font-size: 2rem; color: var(--white-color); bottom: 2rem;"></i>
+                </a>
+            </div>
+
+        </section>
+
+
+        <section class="about-section section-padding" id="section_2">
+            <div class="section-overlay"></div>
+            <div class="container">
+                <div class="row align-items-center project">
+
+                    <div class="col-lg-5 col-12 mt-4 mt-lg-0 mx-auto">
+                        <em class="text-white">Master 2 final project</em>
+
+                        <h2 class="text-white mb-3">See you, Star Station</h2>
+
+                        <p class="text-white"> All aboard! ☆<br>
+                            Join a magical girl on her journey to find her place in a tumultuous world!<br>
+                        </p>
+
+                        <p class="text-white">This game is my ongoing end-of-year project of the Master 2 at Cnam
+                            ENJMIN. I am
+                            working in a 13 persons team and I am specializing as a tech artist.</p>
+
+                        <a href="https://www.artstation.com/estellerostan" target="_blank"
+                            class="smoothscroll btn custom-btn custom-border-btn mt-3 mb-4">
+                            Check it out soon on artstation
+                        </a>
+                    </div>
+                    <div class="col-lg-5 col-12">
+                        <div class="ratio ratio-1x1">
+                            <!-- <iframe width="420" height="315" class="video-info"
+                                src="https://www.youtube.com/embed/xensUSHYs_0?autoplay=1&mute=1&playlist=xensUSHYs_0&loop=1&controls=0&start=18">
+                            </iframe> -->
+                            <video autoplay="" loop="" muted="" class="video-info" poster="">
+                                <source src="videos/SYSS-empathy-point.mp4" type="video/mp4">
+
+                                Your browser does not support the video tag.
+                            </video>
+
+                            <div class="about-video-info d-flex flex-column">
+                                <h4 class="mt-auto"><span class="badge">Unreal</span>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row align-items-center project">
+
+                    <div class="col-lg-5 col-12">
+                        <div class="ratio ratio-1x1">
+                            <!-- <iframe width="420" height="315" class="video-info"
+                                src="https://www.youtube.com/embed/NcWaoec2i2s?autoplay=1&mute=1&playlist=NcWaoec2i2s&loop=1&controls=0&start=18">
+                            </iframe> -->
+                            <video autoplay="" loop="" muted="" class="video-info" poster="">
+                                <source src="videos/Dee-S-gameplay.mp4" type="video/mp4">
+
+                                Your browser does not support the video tag.
+                            </video>
+
+
+                            <div class="about-video-info d-flex flex-column">
+                                <h4 class="mt-auto"><span class="badge">Unity</span>
+                                    <span class="badge">PC/ Android</span><span class="badge">Mirror</span>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5 col-12 mt-4 mt-lg-0 mx-auto">
+                        <em class="text-white">Master 1 final project</em>
+
+                        <h2 class="text-white mb-3">Dee | S</h2>
+
+                        <p class="text-white">Explore, as a duo, a consensual relationship of domination and submission.
+                        </p>
+
+                        <p class="text-white">This game is my first end-of-year project of the Master 1 at Cnam ENJMIN
+                            and
+                            was completed in 3.5 months. I developed all the features so that they work online.</p>
+
+                        <a href="https://shanori.itch.io/dee-s" target="_blank"
+                            class="smoothscroll btn custom-btn custom-border-btn mt-3 mb-4">
+                            Check it out on itch.io
+                        </a>
+                    </div>
+
+                </div>
+                <div class="row align-items-center project">
+
+                    <div class="col-lg-5 col-12 mt-4 mt-lg-0 mx-auto">
+                        <em class="text-white">Master 1 final project</em>
+
+                        <h2 class="text-white mb-3">Dans les pas de Mïa</h2>
+
+                        <p class="text-white"> As a parent-child duo, help Mïa invite her friends for her birthday.
+                            Play this phygital game on a tablet along with its accompanying book to solve all the puzzles.
+                        </p>
+
+                        <p class="text-white">This game is my second end-of-year project of the Master 1 at Cnam ENJMIN
+                            and
+                            was completed with another programmer in 3.5
+                            months.</p>
+
+                        <a href="https://marine-mousset.itch.io/dans-les-pas-de-mia" target="_blank"
+                            class="smoothscroll btn custom-btn custom-border-btn mt-3 mb-4">
+                            Check it out on itch.io
+                        </a>
+                    </div>
+                    <div class="col-lg-5 col-12">
+                        <div class="ratio ratio-1x1">
+                            <!-- <iframe width="420" height="315" class="video-info"
+                                src="https://www.youtube.com/embed/xensUSHYs_0?autoplay=1&mute=1&playlist=xensUSHYs_0&loop=1&controls=0&start=18">
+                            </iframe> -->
+                            <video autoplay="" loop="" muted="" class="video-info" poster="">
+                                <source src="videos/Dans_les_pas_de_Mia_-_Trailer.mp4" type="video/mp4">
+
+                                Your browser does not support the video tag.
+                            </video>
+
+                            <div class="about-video-info d-flex flex-column">
+                                <h4 class="mt-auto"><span class="badge">Unity</span><span class="badge">Android</span>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row align-items-center project">
+                    <div class="col-lg-5 col-12">
+                        <div class="ratio ratio-1x1">
+                            <img src="images/ants.png" class="video-info" style="height: auto;padding-top: 20px;"
+                                alt="">
+
+                            <div class="about-video-info d-flex flex-column">
+                                <h4 class="mt-auto">
+                                    <span class="badge">C++</span>
+                                    <span class="badge">no engine</span>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-12 mt-4 mt-lg-0 mx-auto">
+                        <em class="text-white">Master 1 course project</em>
+
+                        <h2 class="text-white mb-3">Google Ants AI Challenge</h2>
+
+                        <p class="text-white">The AI ​​challenge was to create an artificial intelligence that controls
+                            a colony of ants and fights against other colonies for domination.</p>
+
+                        <p class="text-white">I determined the best strategy and developed it using <strong>A*</strong>,
+                            <strong>BFS</strong> and <strong>MiniMax</strong>,
+                            ensuring that the AI ​​ranked 1/5 in the internal tournament of Master 1 at Cnam
+                            ENJMIN.
+                        </p>
+
+                        <a href="https://github.com/estellerostan/ants-aichallenge/" target="_blank"
+                            class="smoothscroll btn custom-btn custom-border-btn mt-3 mb-4">
+                            Check it out on GitHub
+                        </a>
+                    </div>
+                </div>
+                <h2 class="text-white ms-4">Check out all my other games on <a class="other-games-cta"
+                        href="https://shafoo.itch.io/">itch.io</a>!
+                </h2>
+            </div>
+        </section>
+        <!--
+
+        Adapted from Tooplate 2115 Marvel
+
+        https://www.tooplate.com/view/2115-marvel
+
+        -->
+        <section class="resume py-5 d-lg-flex justify-content-center align-items-center section_4" id="section_3">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6 col-12">
+                        <h2 class="mb-4">Experiences</h2>
+
+                        <div class="date-timeline">
+                            <div class="date-timeline-wrapper">
+                                <div class="date-timeline-yr">
+                                    <span>2024</span>
+                                </div>
+                                <div class="date-timeline-info">
+                                    <h3><span>Technical artist intern</span><small>Pôle Image Magelis « Résidence XR
+                                            »</small></h3>
+                                    <p class="ms-3" style="font-size: 14px;">July 2024, 1 month, Angoulême</p>
+                                    <ul>
+                                        <li><strong>Communicate</strong> with authors of virtual experiences
+                                            to meet their specific needs</li>
+                                        <li>Design and implement features integrating
+                                            <strong>Shader Graph</strong> for two prototypes in <strong>VR</strong> and
+                                            <strong>AR</strong> with <strong>Unity</strong>
+                                            creating stronger engagement among testers
+                                        </li>
+                                        <li>Write a <strong>technical analysis</strong> based on the creative intentions
+                                            of the authors and aimed at initiating the preproduction
+                                            of a prototype of connected objects adapted to childre</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="date-timeline-wrapper">
+                                <div class="date-timeline-yr">
+                                    <span>2019</span>
+                                </div>
+                                <div class="date-timeline-info">
+                                    <h3><span>Full stack web developer</span><small>Abaka</small></h3>
+                                    <p class="ms-3" style="font-size: 14px;">July 2019 - October 2022, 3 years,
+                                        Sophia-Antipolis</p>
+                                    <ul>
+                                        <li>Develop key web application screens three clients of a fintech startup
+                                            in <strong>React</strong> and <strong>MaterialUI</strong> for the front end
+                                            and
+                                            <strong>C#</strong> for the back end</p>
+                                        </li>
+                                        <li>
+                                            Add features to a fintech chatbot in <strong>C#</strong>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-12">
+                        <h2 class="mb-4 mobile-mt-2">Education</h2>
+
+                        <div class="date-timeline">
+                            <div class="date-timeline-wrapper">
+                                <div class="date-timeline-yr">
+                                    <span>2023</span>
+                                </div>
+                                <div class="date-timeline-info">
+                                    <h3><span>Master Jeux et Médias Interactifs
+                                            Numériques</span><small>Cnam-Enjmin</small></h3>
+                                    <p class="ms-3" style="font-size: 14px;">2023 - 2025, Angoulême</p>
+                                </div>
+                            </div>
+
+                            <div class="date-timeline-wrapper">
+                                <div class="date-timeline-yr">
+                                    <span>2015</span>
+                                </div>
+                                <div class="date-timeline-info">
+                                    <h3><span>Licence 3 & Master Informatique MIAGE</span><small>Université de Nice
+                                            Sophia-Antipolis</small></h3>
+                                    <p class="ms-3" style="font-size: 14px;">2015 - 2018, Sophia-Antipolis</p>
+                                </div>
+                            </div>
+
+                            <div class="date-timeline-wrapper">
+                                <div class="date-timeline-yr">
+                                    <span>2013</span>
+                                </div>
+                                <div class="date-timeline-info">
+                                    <h3><span>BTS Service Informatique aux Organisations</span><small>Lycée Honoré
+                                            Estiennes d'Orves</small></h3>
+                                    <p class="ms-3" style="font-size: 14px;">2013 - 2015, Nice</p>
+                                </div>
+                            </div>
+
+                            <img src="images/undraw/undraw_engineering_team_a7n2.svg" class="img-fluid" alt="svg image">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="barista-section section-padding section-bg section_3" id="section_4">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 col-12 mb-4 pb-lg-2">
+                    </div>
+                </div>
+        </section>
+
+        <section class="contact-section section-padding section_5" id="section_5">
+            <div class="container m-auto">
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-6 col-12 mb-4">
+                        <div class="mb-4">
+                            <!-- <em class="text-white fs-6">Get to know more about me</em> -->
+                        </div>
+                        <div class="team-block-wrap">
+                            <div class="team-block-info d-flex flex-column">
+                                <div class="d-flex mt-auto">
+                                    <h4 class="mb-0">Estelle Rostan</h4>
+                                </div>
+
+                                <p class="mb-0">Programmer</p>
+                                <ul class="social-icon mt-1">
+                                    <li class="social-icon-item">
+                                        <a href="https://www.linkedin.com/in/estellerostan/" target="_new"
+                                            class="social-icon-link bi-linkedin">
+                                        </a>
+                                    </li>
+                                    <li class="social-icon-item">
+                                        <a href="https://shafoo.itch.io/" target="_new"
+                                            class="social-icon-link bi-controller">
+                                        </a>
+                                    </li>
+                                    <li class="social-icon-item">
+                                        <a href="https://github.com/estellerostan" target="_new"
+                                            class="social-icon-link bi-github">
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                            <div class="team-block-image-wrap">
+                                <img src="images/profile-picture.png" class="team-block-image img-fluid" alt="">
+                            </div>
+                        </div>
+                        <p class="text-white mt-4 fs-6 arrow-text  me-4">I am looking for an internship starting March
+                            3rd
+                        </p>
+                        <p class="text-white mt-4 fs-6 arrow-text">
+                            Interested to work together?</br>
+                            Let's talk!
+                        </p>
+                        <img src="images/arrow2.png" class="arrow-contact" style="height: auto;" alt="arrow">
+                    </div>
+                    <div class="col-lg-8 col-12 mb-4 pb-lg-2 about-text">
+                        <h3 class="text-white">My journey as</br> a game developer</h3>
+
+                        <p class="text-white mb-4 pb-lg-2">
+                            I have always been passionate about creating video games and it all started with game jams.
+                            I
+                            participated in several of them in my free time while
+                            working
+                            as a web developer for almost 5 years. I liked game
+                            development
+                            so much that I decided to join the video game industry.</br></br>
+
+                            I am currently in my last year of my Master's degree in Video Games and Interactive Media at
+                            Cnam-Enjmin in the game programming track. I am specializing in VFX and tech art.</br></br>
+
+                        </p>
+
+                    </div>
+                    <!-- <div class="col-sm-8">
+                        <div class="row">
+                            <div class="col-8 col-sm-6">
+                                <em class="text-white d-block mb-4">Contact</em>
+                                <p class="d-flex">
+                                    <strong class="me-2">Email:</strong>
+
+                                    <a href="mailto:estellerostan@pm.me" class="site-footer-link">
+                                        estellerostan@pm.me
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="col-4 col-sm-6">
+                                <em class="text-white d-block mb-4">Where to find me?</em>
+
+                                <strong class="text-white">
+                                    <i class="bi-geo-alt me-2"></i>
+                                    Angoulême, France
+                                </strong><br>
+                                <p class="text-white">
+                                    Remote and open to relocation
+                                </p>
+                            </div>
+                        </div>
+
+                    </div> -->
+                </div>
+        </section>
+
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-12 mt-4 mb-3 mt-lg-0 mb-lg-0 me-5">
+                        <em class="text-white d-block mb-4">Contact</em>
+                        <p class="d-flex">
+                            <strong class="me-2">Email:</strong>
+
+                            <a href="mailto:estellerostan@pm.me" class="site-footer-link">
+                                estellerostan@pm.me
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <em class="text-white d-block mb-4">Where to find me?</em>
+
+                        <strong class="text-white">
+                            <i class="bi-geo-alt me-2"></i>
+                            Angoulême, France
+                        </strong><br>
+                        <p class="text-white">
+                            Remote and open to relocation
+                        </p>
+                    </div>
+
+                    <div class="col-lg-8 col-12 mt-4">
+                        <p class="copyright-text p-1">
+                            Free SVG Background by <a target="_blank" href="https://bgjar.com">BGJar</a>
+                        </p>
+                    </div>
+                </div>
+        </footer>
+    </main>
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/click-scroll.js"></script>
+    <script src="js/vegas.min.js"></script>
+    <script src="js/custom.js"></script>
 
 </body>
 
